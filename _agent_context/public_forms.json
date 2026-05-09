@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "hundeprofil",
+      "app_id": "69ff8cdbc08467589ae138e4",
+      "path": "/rest/apps/69ff8cdbc08467589ae138e4/records",
+      "allowed_fields": [
+        "hund_name",
+        "rasse",
+        "geburtsdatum",
+        "geschlecht",
+        "gewicht_kg",
+        "farbe",
+        "chip_nummer",
+        "besitzer_vorname",
+        "besitzer_nachname",
+        "notizen_profil"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Hundeprofil — Formular"
+    },
+    {
+      "entity": "aktivitaetserfassung",
+      "app_id": "69ff8ce06b990c8518369d72",
+      "path": "/rest/apps/69ff8ce06b990c8518369d72/records",
+      "allowed_fields": [
+        "aktivitaet_datum",
+        "aktivitaet_typ",
+        "dauer_minuten",
+        "distanz_km",
+        "tempo",
+        "kalorien",
+        "intensitaet",
+        "startort",
+        "wetter",
+        "notizen_aktivitaet"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Aktivitätserfassung — Formular"
+    },
+    {
+      "entity": "gesundheit_&_fitness",
+      "app_id": "69ff8ce28bc98a35f64e87d0",
+      "path": "/rest/apps/69ff8ce28bc98a35f64e87d0/records",
+      "allowed_fields": [
+        "messdatum",
+        "aktuelles_gewicht",
+        "ruhepuls",
+        "koerpertemperatur",
+        "allgemeinzustand",
+        "tierarztbesuch",
+        "tierarzt_grund",
+        "impfungen",
+        "medikamente",
+        "notizen_gesundheit"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Gesundheit & Fitness — Formular"
+    }
+  ]
+}

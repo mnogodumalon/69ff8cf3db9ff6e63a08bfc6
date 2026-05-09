@@ -1,0 +1,5 @@
+- Hundeprofil (hundeprofil): hund_name[string/text], rasse[string/text], geburtsdatum[date/date], geschlecht[lookup/radio], gewicht_kg[number], farbe[string/text], chip_nummer[string/text], besitzer_vorname[string/text], besitzer_nachname[string/text], foto[file], notizen_profil[string/textarea]
+- Aktivitätserfassung (aktivitaetserfassung): hund_auswahl[applookup/select], aktivitaet_datum[date/datetimeminute], aktivitaet_typ[lookup/select], dauer_minuten[number], distanz_km[number], tempo[string/text], kalorien[number], intensitaet[lookup/radio], startort[geo], wetter[lookup/select], notizen_aktivitaet[string/textarea]
+  → hund_auswahl links to app_id 69ff8cdbc08467589ae138e4
+- Gesundheit & Fitness (gesundheit_&_fitness): hund_gesundheit[applookup/select], messdatum[date/date], aktuelles_gewicht[number], ruhepuls[number], koerpertemperatur[number], allgemeinzustand[lookup/radio], tierarztbesuch[bool], tierarzt_grund[string/text], impfungen[multiplelookup/checkbox], medikamente[string/textarea], foto_gesundheit[file], notizen_gesundheit[string/textarea]
+  → hund_gesundheit links to app_id 69ff8cdbc08467589ae138e4
